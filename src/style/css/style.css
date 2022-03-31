@@ -791,7 +791,12 @@ html, body {
 .title {
   color: var(--theme-accent);
 }
-
+.title-introduction{
+  color: var(--theme-background);
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
 .text {
   color: var(--theme-text-gray);
 }

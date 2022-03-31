@@ -10,7 +10,7 @@ export const router = () => {
     return (
         <Switch>
             <Route path='/components' exact component={Components}/>
-            <Route path='/about' exact  component={About}/>
+            <Route path='/recover' exact  component={About}/>
             <Route path='/' exact component={Home}/>
             <Route component={PageNotFound}/>
         </Switch>
